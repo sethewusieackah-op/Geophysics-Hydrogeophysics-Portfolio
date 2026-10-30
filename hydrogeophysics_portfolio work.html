@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seth Kwasi Ewusie Ackah | Hydrogeophysics & Subsurface Data Specialist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- MathJax for rendering equations -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="mathjax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+        .bg-grid {
+            background-size: 30px 30px;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-black">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-xl text-black shadow-lg shadow-cyan-500/20">
+                    SA
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg leading-none">Seth Kwasi Ewusie Ackah</h1>
+                    <p class="text-xs text-cyan-400 font-mono mt-0.5">Geophysics & Subsurface Data Specialist</p>
+                </div>
+            </div>
+            <div class="hidden md:flex gap-8 text-sm font-medium text-slate-300">
+                <a href="#summary" class="hover:text-cyan-400 transition-colors">Overview</a>
+                <a href="#methodology" class="hover:text-cyan-400 transition-colors">Methodology</a>
+                <a href="#analytics" class="hover:text-cyan-400 transition-colors">Resistivity Analytics</a>
+                <a href="#matrix" class="hover:text-cyan-400 transition-colors">Lithological Matrix</a>
+            </div>
+            <a href="mailto:sethewusieackah@gmail.com" class="px-4 py-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold rounded-lg text-sm transition-all shadow-md shadow-cyan-500/20">
+                Get in Touch
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="relative bg-slate-950 bg-grid py-24 border-b border-slate-800 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-cyan-500/5 via-transparent to-slate-950 pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight max-w-4xl leading-tight">
+                Hydrogeophysical Investigation of <span class="bg-gradient-to-r from-cyan-400 via-teal-300 to-blue-500 bg-clip-text text-transparent">Termitaria as Biomarkers of Groundwater</span>
+            </h1>
+            <p class="mt-6 text-lg text-slate-400 max-w-3xl leading-relaxed">
+                2D Electrical Resistivity Tomography (ERT) using the Schlumberger array to delineate subsurface hydrological conditions and evaluate termite mounds as surface indicators for groundwater exploration.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4 text-xs font-mono text-slate-300">
+                <a href="mailto:sethewusieackah@gmail.com" class="px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-md hover:border-cyan-500 transition-colors"><i class="fa-solid fa-envelope text-cyan-400 mr-2"></i>sethewusieackah@gmail.com</a>
+                <a href="tel:0554101983" class="px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-md hover:border-cyan-500 transition-colors"><i class="fa-solid fa-phone text-cyan-400 mr-2"></i>0554101983</a>
+                <span class="px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-md"><i class="fa-solid fa-microchip text-cyan-400 mr-2"></i>ABEM Terrameter SAS 4000</span>
+                <span class="px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-md"><i class="fa-solid fa-code text-cyan-400 mr-2"></i>RES2DINV 2D Inversion</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- EXECUTIVE SUMMARY -->
+    <section id="summary" class="py-20 max-w-7xl mx-auto px-6 border-b border-slate-800/80">
+        <div class="grid md:grid-cols-3 gap-10">
+            <div>
+                <h2 class="text-xs font-mono uppercase tracking-wider text-cyan-400 mb-2">01. Study Overview</h2>
+                <h3 class="text-2xl font-bold">Research Summary</h3>
+                <p class="text-slate-400 text-sm mt-4 leading-relaxed">
+                    Groundwater exploration in complex hydrogeological environments requires efficient pre-drilling indicators. Termitaria exhibit distinct soil and hydraulic modifications. This study maps subsurface electrical resistivity distributions directly beneath mound locations to quantify their correlation with localized groundwater recharge and saturated aquifers.
+                </p>
+            </div>
+            <div class="md:col-span-2 grid sm:grid-cols-2 gap-6">
+                <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-xl">
+                    <div class="w-10 h-10 rounded-lg bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-teal-400 mb-4">
+                        <i class="fa-solid fa-water"></i>
+                    </div>
+                    <h4 class="font-semibold text-slate-200">Site A (Profiles 1 & 2)</h4>
+                    <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                        160m profile lengths mapped low apparent resistivity zones (&lt; 124 &Omega;&middot;m) extending from shallow depths down to 31.5m directly beneath termitaria structures.
+                    </p>
+                </div>
+                <div class="bg-slate-900/60 border border-slate-800 p-6 rounded-xl">
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 mb-4">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h4 class="font-semibold text-slate-200">Site B (Profiles 3 & 4)</h4>
+                    <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                        400m profile lengths identified deep saturated material between 20m and 52.3m depth with low apparent resistivity (&lt; 93.3 &Omega;&middot;m), aligning with typical groundwater resistivity ranges (10 – 100 &Omega;&middot;m).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- METHODOLOGY & MATHEMATICS -->
+    <section id="methodology" class="py-20 bg-slate-900/30 border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-xs font-mono uppercase tracking-wider text-cyan-400 mb-2">02. Method & Physics</h2>
+            <h3 class="text-3xl font-bold mb-10">Data Acquisition & Mathematical Physics</h3>
+            
+            <div class="grid lg:grid-cols-2 gap-10 items-center">
+                <div class="space-y-6">
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        The Schlumberger array configuration uses two outer current electrodes (A, B) and two inner potential electrodes (M, N). Apparent resistivity (\rho_a) is derived from measured potential differences and geometric factors:
+                    </p>
+                    
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl font-mono text-center text-cyan-300 text-lg shadow-inner">
+                        $$\rho_a = \pi \frac{L^2}{2l} \left( \frac{\Delta V}{I} \right)$$
+                    </div>
+
+                    <div class="space-y-3 text-xs text-slate-400">
+                        <p><strong class="text-slate-200">L:</strong> Half-distance between current electrodes (A, B)</p>
+                        <p><strong class="text-slate-200">l:</strong> Half-distance between potential electrodes (M, N)</p>
+                        <p><strong class="text-slate-200">&Delta;V:</strong> Measured voltage difference across potential electrodes (mV)</p>
+                        <p><strong class="text-slate-200">I:</strong> Current injected into the subsurface (mA)</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+                    <h4 class="text-sm font-semibold text-slate-200 mb-4"><i class="fa-solid fa-list-check text-cyan-400 mr-2"></i>Field Procedure & Modeling</h4>
+                    <ol class="space-y-4 text-xs text-slate-300 list-decimal list-inside">
+                        <li class="pl-2"><span class="font-semibold text-slate-100">Site Reconnaissance:</span> Mapping termitaria positions, vegetation distribution, and establishing profile lines across target mounds.</li>
+                        <li class="pl-2"><span class="font-semibold text-slate-100">Data Acquisition:</span> ABEM Terrameter SAS 4000 system with multi-electrode selector cables and stainless steel ground electrodes.</li>
+                        <li class="pl-2"><span class="font-semibold text-slate-100">Quality Control:</span> Measurement stacking to eliminate background electrical noise and transient ground currents.</li>
+                        <li class="pl-2"><span class="font-semibold text-slate-100">Inversion Modeling:</span> Finite-difference Gauss-Newton inversion using RES2DINV software (6 iterations, achieving low RMS errors of 2.3% – 8.7%).</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESISTIVITY ANALYTICS & INTERACTIVE CHART -->
+    <section id="analytics" class="py-20 max-w-7xl mx-auto px-6 border-b border-slate-800/80">
+        <h2 class="text-xs font-mono uppercase tracking-wider text-cyan-400 mb-2">03. Subsurface Profiles</h2>
+        <h3 class="text-3xl font-bold mb-4">Inverted Resistivity Data</h3>
+        <p class="text-slate-400 text-sm mb-8 max-w-2xl">
+            Depth versus resistivity curves derived from 2D inversion modeling across survey profiles centered on termitaria locations.
+        </p>
+
+        <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl shadow-2xl">
+            <div class="h-96 w-full">
+                <canvas id="resistivityChart"></canvas>
+            </div>
+            <div class="mt-6 text-xs text-slate-400 flex flex-wrap justify-between items-center border-t border-slate-800 pt-4">
+                <span><i class="fa-solid fa-info-circle text-cyan-400 mr-1"></i> Logarithmic scale applied to Apparent Resistivity (&Omega;&middot;m)</span>
+                <span class="font-mono text-cyan-300">Groundwater Target Threshold: 10 &Omega;&middot;m – 100 &Omega;&middot;m</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- LITHOLOGICAL MATRIX -->
+    <section id="matrix" class="py-20 bg-slate-900/30 border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-xs font-mono uppercase tracking-wider text-cyan-400 mb-2">04. Geoelectric Interpretation</h2>
+            <h3 class="text-3xl font-bold mb-8">Lithological Classification Matrix</h3>
+
+            <div class="overflow-x-auto rounded-xl border border-slate-800 bg-slate-900">
+                <table class="w-full text-left border-collapse text-sm text-slate-300">
+                    <thead>
+                        <tr class="bg-slate-800/80 text-cyan-300 font-mono text-xs uppercase">
+                            <th class="p-4 border-b border-slate-700">Resistivity Range (&Omega;&middot;m)</th>
+                            <th class="p-4 border-b border-slate-700">Inferred Material</th>
+                            <th class="p-4 border-b border-slate-700">Hydrogeological Classification</th>
+                            <th class="p-4 border-b border-slate-700">Target Horizon</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800 text-xs">
+                        <tr class="hover:bg-slate-800/40 transition-colors">
+                            <td class="p-4 font-mono font-bold text-teal-400">&lt; 100 &Omega;&middot;m</td>
+                            <td class="p-4">Saturated Clay, Weathered Saprolite</td>
+                            <td class="p-4"><span class="px-2 py-1 rounded bg-teal-500/20 text-teal-300 border border-teal-500/30 font-semibold">Groundwater Saturated Zone</span></td>
+                            <td class="p-4">Sub-termitaria conductive zones</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/40 transition-colors">
+                            <td class="p-4 font-mono font-bold text-cyan-400">100 – 680 &Omega;&middot;m</td>
+                            <td class="p-4">Sandy Clay, Fractured Metasediments</td>
+                            <td class="p-4">Transitional / Moderate Permeability</td>
+                            <td class="p-4">Intermediate soil & weathered rock</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/40 transition-colors">
+                            <td class="p-4 font-mono text-slate-300">680 – 3,825 &Omega;&middot;m</td>
+                            <td class="p-4">Partially Weathered Bedrock</td>
+                            <td class="p-4 text-slate-400">Low Porosity Formation</td>
+                            <td class="p-4">Surrounding matrix boundaries</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/40 transition-colors">
+                            <td class="p-4 font-mono font-bold text-red-400">&gt; 3,825 &Omega;&middot;m</td>
+                            <td class="p-4">Fresh Bedrock / Metamorphic Formations</td>
+                            <td class="p-4 text-slate-400">Impermeable Basement</td>
+                            <td class="p-4">Deep unaltered bedrock</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & FOOTER -->
+    <footer id="contact" class="py-16 bg-slate-950 text-center border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-2">Seth Kwasi Ewusie Ackah</h2>
+            <p class="text-slate-400 text-sm mb-6">Hydrogeophysics & Subsurface Data Specialist</p>
+            <div class="flex justify-center items-center gap-6 text-slate-300 text-sm mb-8 flex-wrap">
+                <a href="mailto:sethewusieackah@gmail.com" class="hover:text-cyan-400 transition-colors flex items-center gap-2 bg-slate-900 px-4 py-2 rounded-lg border border-slate-800"><i class="fa-solid fa-envelope text-cyan-400"></i> sethewusieackah@gmail.com</a>
+                <a href="tel:0554101983" class="hover:text-cyan-400 transition-colors flex items-center gap-2 bg-slate-900 px-4 py-2 rounded-lg border border-slate-800"><i class="fa-solid fa-phone text-cyan-400"></i> 0554101983</a>
+            </div>
+            <p class="text-xs text-slate-600 font-mono">&copy; Seth Kwasi Ewusie Ackah. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- CHART.JS INITIALIZATION SCRIPT -->
+    <script>
+        const ctx = document.getElementById('resistivityChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['0m', '5m', '10m', '15m', '20m', '30m', '40m', '50m', '60m', '70m'],
+                datasets: [
+                    {
+                        label: 'Site A - Profile 1 (Sub-termitaria)',
+                        data: [450, 220, 95, 62, 48, 55, 120, 310, 850, 1400],
+                        borderColor: '#2dd4bf',
+                        backgroundColor: '#2dd4bf20',
+                        borderWidth: 2,
+                        tension: 0.3,
+                        pointRadius: 4
+                    },
+                    {
+                        label: 'Site B - Profile 3 (Deep Target Zone)',
+                        data: [1200, 890, 650, 410, 88, 35, 42, 75, 450, 2800],
+                        borderColor: '#06b6d4',
+                        backgroundColor: '#06b6d420',
+                        borderWidth: 2,
+                        tension: 0.3,
+                        pointRadius: 4
+                    },
+                    {
+                        label: 'Background Reference Matrix',
+                        data: [1500, 1800, 2100, 3400, 4200, 5800, 7200, 9100, 12000, 15000],
+                        borderColor: '#f43f5e',
+                        borderDash: [5, 5],
+                        borderWidth: 1.5,
+                        tension: 0.1,
+                        pointRadius: 2
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        type: 'logarithmic',
+                        title: {
+                            display: true,
+                            text: 'Apparent Resistivity (\u03A9\u00B7m)',
+                            color: '#94a3b8'
+                        },
+                        grid: { color: '#334155' },
+                        ticks: { color: '#94a3b8' }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Depth (m)',
+                            color: '#94a3b8'
+                        },
+                        grid: { color: '#334155' },
+                        ticks: { color: '#94a3b8' }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: { color: '#f8fafc', font: { family: 'Inter', size: 11 } }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
